@@ -1,0 +1,11 @@
+@mixin title() {
+  font-family: $main-font;
+  color: $main-font-color;
+  font-size: 36px;
+  line-height: 60px;
+}
+
+@mixin list-reset() {
+  list-style: none;
+  padding: 0;
+}
