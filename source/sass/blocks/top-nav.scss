@@ -1,0 +1,56 @@
+.top-nav {
+  a {
+    color: $description-color;
+    text-decoration: none;
+    text-align: left;
+  }
+
+  &--local {
+    order: -1;
+    margin-right: auto;
+  }
+}
+
+.top-nav__locations {
+  @include list-reset();
+}
+
+.top-nav__info {
+  @include list-reset();
+}
+
+.top-nav__phone {
+  display: none;
+}
+
+.top-nav__locations-item {
+  padding: 15px 40px;
+  padding-right: 115px;
+  border: 1px solid $border-color;
+  border-top: none;
+  text-align: left;
+
+  &--your {
+    color: $icon-color;
+    font-weight: normal;
+
+    &::before {
+      content: "Город | ";
+      font-size: inherit;
+      color: $description-color;
+      font-weight: bold;
+      margin-right: 10px;
+    }
+  }
+}
+
+.top-nav__info-item {
+  padding: 15px 20px;
+  border: 1px solid $border-color;
+  border-top: none;
+  background-color: $menu-background;
+
+  a {
+    color: $second-font-color;
+  }
+}

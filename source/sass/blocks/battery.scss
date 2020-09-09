@@ -1,0 +1,71 @@
+.battery {
+  .features__item-description {
+    margin-bottom: 50px;
+  }
+}
+
+.battery__features-list {
+  @include list-reset();
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.battery__features-title {
+  font-weight: bold;
+}
+
+.battery__features-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  &:not(:last-child) {
+    margin-bottom: 25px;
+  }
+
+  p {
+    margin: 0;
+
+    &:first-child {
+      margin-bottom: 8px;
+    }
+  }
+
+  &::before {
+    content: "";
+    width: 70px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &--4g {
+    &::before {
+      background-image: url("../../img/4g.png");
+    }
+  }
+
+  &--calls {
+    &::before {
+      margin-right: 10px;
+      background-image: url("../../img/calls.png");
+    }
+  }
+
+  &--video {
+    &::before {
+      margin-right: 15px;
+      background-image: url("../../img/video.png");
+    }
+  }
+
+  &--fm {
+    &::before {
+      margin-right: 20px;
+      background-image: url("../../img/FM.png");
+    }
+  }
+}
+

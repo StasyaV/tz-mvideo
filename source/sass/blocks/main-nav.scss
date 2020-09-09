@@ -1,0 +1,34 @@
+.main-nav {
+  order: -1;
+}
+
+.main-nav__menu {
+  @include list-reset();
+}
+
+.main-nav__title-mobile {
+  padding: 15px 40px;
+  background-color: $border-color;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -39.5px;
+    left: 45px;
+    border: 20px solid transparent;
+    border-top: 20px solid $border-color;
+  }
+}
+
+.menu__item {
+  padding: 25px 20px;
+  font-size: 17px;
+  border: 1px solid $border-color;
+  border-top: none;
+}
+
+.menu__item-link {
+  color: $description-color;
+  text-decoration: none;
+}

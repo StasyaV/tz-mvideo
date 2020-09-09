@@ -1,0 +1,43 @@
+.header__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px 20px;
+}
+
+.menu-button {
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-image: url("../../img/icon-mobile-menu.svg");
+
+  &--open {
+    background-image: url("../../img/icon-close.svg");
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 21px;
+    right: -100px;
+    z-index: 10;
+  }
+}
+
+.menu-button--open ~ .header__menu-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  background-color: $second-font-color;
+  color: $description-color;
+  font-weight: bold;
+  font-size: 18px;
+
+  display: flex;
+  flex-direction: column;
+
+  .actions {
+    display: none;
+  }
+}

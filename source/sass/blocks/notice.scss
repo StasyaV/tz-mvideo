@@ -1,0 +1,18 @@
+.notice {
+  font-size: 12px;
+  color: $notice-color;
+}
+
+.notice__list {
+  @include list-reset();
+}
+
+.notice__item {
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.notice__title {
+  margin: 0;
+  margin-bottom: 10px;
+}

@@ -2,7 +2,7 @@
   font-family: "Styrene A";
   font-weight: normal;
   font-style: normal;
-  src: url("../fonts/StyreneAWeb-Regular") format("woff2"),
+  src: url("../fonts/StyreneAWeb-Regular.woff2") format("woff2"),
     url("../fonts/StyreneAWeb-Regular.woff") format("woff");
 }
 
@@ -10,6 +10,14 @@
   font-family: "Styrene A";
   font-weight: bold;
   font-style: normal;
-  src: url("../fonts/StyreneAWeb-Bold") format("woff2"),
+  src: url("../fonts/StyreneAWeb-Bold.woff2") format("woff2"),
     url("../fonts/StyreneAWeb-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Styrene A";
+  font-weight: bold;
+  font-style: normal;
+  src: url("../fonts/StyreneAWeb-Medium.woff2") format("woff2"),
+    url("../fonts/StyreneAWeb-Medium.woff") format("woff");
 }

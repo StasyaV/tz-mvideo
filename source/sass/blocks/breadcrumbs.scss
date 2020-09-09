@@ -1,0 +1,30 @@
+.breadcrumbs {
+  font-size: 14px;
+}
+
+.breadcrumbs__list {
+  @include list-reset();
+  display: flex;
+}
+
+.breadcrumbs__item {
+  &:not(:last-child) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    margin-right: 20px;
+
+    &::after {
+      content: "→";
+      display: inline-block;
+      margin-left: 20px;
+      color: $icon-color;
+      font-weight: 400;
+    }
+  }
+}
+
+.breadcrumbs__print-button {
+  display: none;
+}

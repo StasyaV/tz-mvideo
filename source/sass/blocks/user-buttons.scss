@@ -1,0 +1,13 @@
+.user-buttons {
+  @include list-reset();
+}
+
+.user-buttons__item {
+  &--hidden {
+    display: none;
+  }
+
+  svg {
+    fill: $icon-color;
+  }
+}

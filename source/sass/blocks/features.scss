@@ -1,0 +1,175 @@
+.features__item {
+  color: $description-color;
+  padding: 20px 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+
+  &--display {
+    @include font-medium();
+    padding-bottom: 150px;
+    background-image: url("../../img/display-mobile.png");
+    background-color: $blue-background;
+  }
+
+  &--light {
+    padding-bottom: 300px;
+    background-image: url("../../img/light.jpg");
+    background-size: 250px auto;
+    background-position: center bottom;
+  }
+
+  &--battery {
+    padding-bottom: 250px;
+    background-image: url("../../img/battery-mob.png");
+    background-size: 250px auto;
+    background-position: center bottom;
+  }
+
+  &--main-camera {
+    padding-top: 140px;
+    padding-bottom: 50px;
+    color: $second-font-color;
+    background-image: url("../../img/main-camera-mob.png");
+    background-size: cover;
+
+    .features__item-title {
+      color: $second-font-color;
+    }
+  }
+
+  &--main-camera-compare {
+    color: $second-font-color;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background-image: url("../../img/compare-background-mob.png");
+    background-size: cover;
+
+    .features__item-title {
+      color: $second-font-color;
+    }
+
+    .features__item-description {
+      margin: 0;
+      margin-bottom: 50px;
+    }
+
+    .features__item-compare-list {
+      @include list-reset();
+      text-align: center;
+      padding-top: 400px;
+      background-repeat: no-repeat;
+      background-image: url("../../img/compare-camera-mob.png");
+    }
+
+    .features__item-compare-item {
+      p {
+        margin: 0;
+      }
+
+      &:first-child {
+        margin-bottom: 430px;
+      }
+    }
+  }
+
+  &--selfie-camera {
+    padding-bottom: 400px;
+    background-color: $background-color;
+    background-image: url("../../img/selfie.png");
+    background-size: 250px auto;
+    background-position: center bottom 30px;
+  }
+
+  &--memory {
+    padding-bottom: 0;
+    position: relative;
+  }
+
+  &--sound {
+    padding: 40px 0;
+    padding-bottom: 170px;
+    margin-top: -17px;
+    background-color: $dark-blue;
+    background-image: url("../../img/sound-mob.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    .features__item-main-title {
+      margin: 0;
+      margin-bottom: 20px;
+      color: $second-font-color;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .features__item-title {
+      color: $second-font-color;
+    }
+
+    .features__item-description {
+      color: $second-font-color;
+
+      &:not(:last-child) {
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  &--gallery {
+    padding-bottom: 500px;
+    margin-bottom: 30px;
+    background-image: url("../../img/app.jpg");
+    background-repeat: no-repeat;
+    background-size: 250px auto;
+    background-position: center bottom;
+
+    .features__item-main-title {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin: 0;
+      margin-bottom: 20px;
+
+      &::before {
+        content: "";
+        width: 50px;
+        height: 50px;
+        margin-right: 20px;
+        background-image: url("../../img/huawei-app.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+    }
+  }
+
+  &--notice {
+    border-top: 2px solid rgba(156, 156, 156, 0.5);
+  }
+}
+
+.features__item-title {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: $title-color;
+}
+
+.features__item-description {
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+.features__item-banner-title {
+  padding: 150px 0;
+  font-size: 36px;
+  font-weight: bold;
+  color: $second-font-color;
+  text-transform: uppercase;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../../img/memory-mob.png");
+}
