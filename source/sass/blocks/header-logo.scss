@@ -2,3 +2,9 @@
   display: block;
   margin-right: auto;
 }
+
+@media (min-width: $tablet-width) {
+  .logo {
+    margin: 0 auto;
+  }
+}

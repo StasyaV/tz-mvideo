@@ -20,16 +20,16 @@
         </ul>
       </div>    
       <div class="header__logo logo">
-        <img src="/img/mobile-logo.svg" alt="Логотип компании" class="header__logo-img" width="35" height="35">
+        <picture>
+          <source media="(min-width: 768px)" srcset="img/mvid_logo.svg">
+          <img src="/img/mobile-logo.svg" alt="Логотип компании" class="header__logo-img">
+        </picture>
       </div>      
       <div class="header__menu-button menu-button">
-        <!-- <svg class="header__menu-button-ico" width="18" height="14">
-          <use xlink:href="img/sprite.svg#icon-mobile-menu"></use>
-        </svg> -->
       </div>
       <div class="header__menu-container">
         <div class="header__top-nav top-nav top-nav--local close">
-          <div class="top-nav__locations-item top-nav__locations-item--your"><a href="#">Москва</a></div>
+          <div class="top-nav__locations-item top-nav__locations-item--your arrow"><a href="#">Москва</a></div>
           <div class="top-nav__locations-item"><a href="#">Магазины</a></div>
          </div>
         <div class="top-nav top-nav--info close">
@@ -76,40 +76,40 @@
         <nav class="main-nav close">
           <div class="main-nav__title-mobile">Каталог</div>
           <ul class="main-nav__menu menu">
-            <li class="menu__item menu__item--promotion">
+            <li class="menu__item menu__item--promotion arrow">
               <a href="#" class="menu__item-link">Акции</a>
             </li>
-            <li class="menu__item">
+            <li class="menu__item arrow">
               <a href="#" class="menu__item-link">Телевизоры, аудио, Hi-Fi</a>
             </li>
-            <li class="menu__item">
+            <li class="menu__item arrow">
               <a href="#" class="menu__item-link">Ноутбуки и компьютеры</a>
             </li>
-            <li class="menu__item">
+            <li class="menu__item arrow">
               <a href="#" class="menu__item-link">Смартфоны и гаджеты</a>
             </li>
-            <li class="menu__item">
+            <li class="menu__item arrow">
               <a href="#" class="menu__item-link">Фото и видео</a>
             </li>
-            <li class="menu__item">
+            <li class="menu__item arrow">
               <a href="#" class="menu__item-link">Техника для кухни</a>
             </li>
-            <li class="menu__item">
+            <li class="menu__item arrow">
               <a href="#" class="menu__item-link">Техника для дома</a>
             </li>
-            <li class="menu__item">
+            <li class="menu__item arrow">
               <a href="#" class="menu__item-link">Красота и здоровье</a>
             </li>
-            <li class="menu__item">
+            <li class="menu__item arrow">
               <a href="#" class="menu__item-link">Игры, софт и развлечения</a>
             </li>
-            <li class="menu__item">
+            <li class="menu__item arrow">
               <a href="#" class="menu__item-link">Авто электроника</a>
             </li>
-            <li class="menu__item">
+            <li class="menu__item arrow">
               <a href="#" class="menu__item-link">Аксессуары</a>
             </li>
-            <li class="menu__item">
+            <li class="menu__item arrow">
               <a href="#" class="menu__item-link">Apple</a>
             </li>         
           </ul>
@@ -129,23 +129,30 @@
           <div class="breadcrumbs__print-button">Печатать</div>
         </div>
         <div class="main-content__main-banner main-banner container">
-          <img src="img/huawei-y6.png" alt="Лого Huawei Y6p" class="main-banner__img">
+          <picture>
+            <source media="(min-width: 768px)" srcset="img/main-banner-desk.jpg">
+            <img src="/img/main-banner-mob.jpg" alt="Главный баннер" class="header__logo-img">
+          </picture>
           <a href="#" class="main-banner__button">Откройте в App Gallery</a>
         </div>
         <section class="main-content__features features">
           <h2 class="visually-hidden">Преимущества телефона Huawei</h2>
           <div class="features__item features__item--display">
-            <div class="features__item-content container">
+            <div class="container">
               <p class="features__item-title">Экран 6,3 дюйма с каплевидной тёмной областью</p>
-              <p class="features__item-description">Экран 6,3 дюйма с каплевидной тёмной областью4 и полезной площадью 88,4% обеспечивает незабываемый визуальный опыт5. 
+              <p class="features__item-description">Экран 6,3 дюйма с каплевидной тёмной областью<sup>4</sup> и полезной площадью 88,4% обеспечивает незабываемый визуальный опыт<sup>5</sup>. 
                 Фронтальная камера размещена в отверстии диаметром 2,65 мм с тонкими рамками.</p>
             </div>
           </div>
           <div class="features__item features__item--light">
-            <div class="features__item-content container">
-              <p class="features__item-title">Игра света</p>
-              <p class="features__item-description">Гармоничное сочетание текстуры и дизайна задней панели создаёт эффектные сияющие переливы. 
-                Под каждым углом раскрывается неповторимая игра света и тени.</p>
+            <div class="container">
+              <div class="features__item-content">
+                <div>
+                  <p class="features__item-title">Игра света</p>
+                  <p class="features__item-description">Гармоничное сочетание текстуры и дизайна задней панели создаёт эффектные сияющие переливы. 
+                    Под каждым углом раскрывается неповторимая игра света и тени.</p>
+                </div>
+              </div>
             </div>
           </div>
           <div class="features__item features__item--battery battery">
@@ -182,34 +189,30 @@
             </div>
           </div>
           <div class="features__item features__item--main-camera">
-            <div class="features__item-content container">
+            <div class="container">
               <p class="features__item-title">Тройная основная камера</p>
               <p class="features__item-description">Смартфон HUAWEI Y6p оснащён основной камерой, которая состоит из трёх объективов: основного объектива 13 Мп, широкоугольного объектива 5 Мп и датчика измерения глубины резкости 2 Мп. 
                 Возможности камеры позволяют создавать качественные детализированные снимки.</p>
             </div>
           </div>
           <div class="features__item features__item--main-camera-compare">
-            <div class="features__item-content container">
+            <div class="container">
               <p class="features__item-title">Ультраширокоугольный объектив с углом обзора 120°</p>
               <p class="features__item-description">Благодаря широкоугольному объективу 5 Мп смартфон HUAWEI Y6p способен охватить угол обзора 120°. Создавай масштабные снимки горных пейзажей 
                 и архитектурных ансамблей или групповые фото — в кадр точно всё поместится.</p>
-              <ul class="features__item-compare-list">
-                <li class="features__item-compare-item">
-                  <p>1x</p>
-                  <p>Съёмка в обычном режиме</p>
-                </li>
-                <li class="features__item-compare-item">
-                  <p>0.6x</p>
-                  <p>Широкоформатная съёмка</p>
-                </li>
-              </ul>
+              <div class="features__item-compare-list">
+              </div>
             </div>
           </div>
           <div class="features__item features__item--selfie-camera">
-            <div class="features__item-content container">
-              <p class="features__item-title">Селфи-камера 8 Мп с эффектами украшения</p>
-              <p class="features__item-description">С помощью HUAWEI Y6p ты можешь запечатлеть самые яркие и важные моменты. 
-                Фронтальная камера 8 Мп с эффектами украшения подстраивается под условия съёмки, чтобы подчеркнуть твою естественную красоту и создать профессиональный портрет.</p>
+            <div class="container">
+              <div class="features__item-content">
+                <div>
+                  <p class="features__item-title">Селфи-камера 8 Мп с эффектами украшения</p>
+                  <p class="features__item-description">С помощью HUAWEI Y6p ты можешь запечатлеть самые яркие и важные моменты. 
+                    Фронтальная камера 8 Мп с эффектами украшения подстраивается под условия съёмки, чтобы подчеркнуть твою естественную красоту и создать профессиональный портрет.</p>
+                </div>
+              </div>
             </div>
           </div>
           <div class="features__item features__item--memory">
@@ -234,12 +237,16 @@
             </div>
           </div>
           <div class="features__item features__item--gallery">
-            <div class="features__item-content container">
-              <p class="features__item-main-title">HUAWEI AppGallery</p>
-              <p class="features__item-title">Фирменный магазин приложений*</p>
-              <p class="features__item-description">Магазин приложений HUAWEI AppGallery — это официальная платформа HUAWEI, которая позволяет искать и загружать приложения, а также управлять и делиться ими. HUAWEI AppGallery продолжает развивать глобальную экосистему приложений, которая открывает доступ 
-                к широкому списку безопасных 
-                и эффективных мобильных сервисов.</p>
+            <div class="container">
+              <div class="features__item-content ">
+                <div>
+                  <p class="features__item-main-title">HUAWEI AppGallery</p>
+                  <p class="features__item-title">Фирменный магазин приложений*</p>
+                  <p class="features__item-description">Магазин приложений HUAWEI AppGallery — это официальная платформа HUAWEI, которая позволяет искать и загружать приложения, а также управлять и делиться ими. HUAWEI AppGallery продолжает развивать глобальную экосистему приложений, которая открывает доступ 
+                    к широкому списку безопасных 
+                    и эффективных мобильных сервисов.</p>
+                </div>
+              </div>
             </div>
           </div>
           <div class="features__item features__item--notice notice">

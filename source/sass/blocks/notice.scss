@@ -16,3 +16,9 @@
   margin: 0;
   margin-bottom: 10px;
 }
+
+@media (min-width: $desktop-width) {
+  .notice {
+    font-size: 14px;
+  }
+}

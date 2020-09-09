@@ -1,0 +1,29 @@
+.main-banner {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.main-banner__button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 0;
+  display: block;
+  width: 80px;
+  height: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../../img/app-gallery.png");
+}
+
+@media (min-width: $tablet-width) {
+  .main-banner__button {
+    width: 120px;
+    height: 30px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .main-banner {
+  }
+}
