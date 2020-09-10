@@ -91,6 +91,25 @@ a {
     text-align: center;
     border-top: 1px solid $border-color;
 
+    &--promotion {
+      background-color: $hover-color;
+
+      a {
+        color: $second-font-color;
+      }
+
+      &:hover,
+      &:active,
+      &:focus {
+        background-color: transparent;
+        box-shadow: inset 0 3px 3px $hover-color;
+
+        a {
+          color: $description-color;
+        }
+      }
+    }
+
     &--submenu {
       &:hover,
       &:active,
