@@ -16,20 +16,24 @@
         <ul class="top-content__features-list top-features-list">
           <li class="top-features-list__item"><a href="#" class="top-features-list__item-link">+5% скидка</a> за оплату онлайн</li>
           <li class="top-features-list__item"><a href="#" class="top-features-list__item-link">Доставка</a> в подарок</li>
-          <li class="top-features-list__item">Акция<a href="#" class="top-features-list__item-link">Льготная рассрочка</a></li>
+          <li class="top-features-list__item">Акция <a href="#" class="top-features-list__item-link">"Льготная рассрочка"</a></li>
         </ul>
       </div>    
       <div class="header__logo logo">
         <picture>
           <source media="(min-width: 768px)" srcset="img/mvid_logo.svg">
-          <img src="/img/mobile-logo.svg" alt="Логотип компании" class="header__logo-img">
+          <img src="/img/mobile-logo.svg" alt="Логотип компании" class="logo__img">
         </picture>
       </div>      
       <div class="header__menu-button menu-button">
       </div>
       <div class="header__menu-container">
         <div class="header__top-nav top-nav top-nav--local close">
-          <div class="top-nav__locations-item top-nav__locations-item--your arrow"><a href="#">Москва</a></div>
+          <div class="top-nav__locations-item top-nav__locations-item--your arrow">
+            <svg class="top-nav__locations-ico">
+              <use xlink:href="img/sprite.svg#geo"></use>
+            </svg>
+            <a href="#">Москва</a></div>
           <div class="top-nav__locations-item"><a href="#">Магазины</a></div>
          </div>
         <div class="top-nav top-nav--info close">
@@ -40,7 +44,7 @@
             <li class="top-nav__info-item"><a href="#">Для бизнеса</a></li>
             <li class="top-nav__info-item"><a href="#">Рассрочка и кредит</a></li>
           </ul>
-          <div class="top-nav__phone">8-495-777-777-5</div>
+          <div class="top-nav__phone"><a href="tel:8-495-777-777-5">8-495-777-777-5</a></div>
         </div>
         <div class="header__user-nav user-nav">
           <ul class="user-nav__account close">
@@ -50,25 +54,31 @@
           <div class="user-nav__actions actions">
             <form class="actions__search" method="post" action="/action/search">
               <input type="search" class="actions__search-input close" name="q" placeholder="Поиск:">
-              <svg class="actions__search-ico" width="18" height="14">
+              <svg class="actions__search-ico">
                 <use xlink:href="img/sprite.svg#search"></use>
               </svg>
             </form>
             <ul class="actions__buttons user-buttons">
               <li class="user-buttons__item user-buttons__item--hidden user-buttons__item--compare">
-                <svg class="user-buttons__item-ico" width="18" height="14">
-                  <use xlink:href="img/sprite.svg#compare"></use>
-                </svg>
+                <a href="">
+                  <svg class="user-buttons__item-ico" width="18" height="14">
+                    <use xlink:href="img/sprite.svg#compare"></use>
+                  </svg>
+                </a>
               </li>
               <li class="user-buttons__item user-buttons__item--hidden user-buttons__item--favourite">
-                <svg class="user-buttons__item-ico" width="18" height="14">
-                  <use xlink:href="img/sprite.svg#heart"></use>
-                </svg>
+                <a href="">
+                  <svg class="user-buttons__item-ico" width="18" height="14">
+                    <use xlink:href="img/sprite.svg#heart"></use>
+                  </svg>
+                </a>
               </li>
               <li class="user-buttons__item user-buttons__item--cart">
-                <svg class="user-buttons__item-ico" width="18" height="14">
-                  <use xlink:href="img/sprite.svg#cart"></use>
-                </svg>
+                <a href="">
+                  <svg class="user-buttons__item-ico" width="18" height="14">
+                    <use xlink:href="img/sprite.svg#cart"></use>
+                  </svg>
+                </a>
               </li>
             </ul>
           </div>
@@ -104,15 +114,20 @@
               <a href="#" class="menu__item-link">Игры, софт и развлечения</a>
             </li>
             <li class="menu__item arrow">
-              <a href="#" class="menu__item-link">Авто электроника</a>
-            </li>
-            <li class="menu__item arrow">
-              <a href="#" class="menu__item-link">Аксессуары</a>
-            </li>
-            <li class="menu__item arrow">
               <a href="#" class="menu__item-link">Apple</a>
-            </li>         
-          </ul>
+            </li>
+            <li class="menu__item menu__item--submenu arrow">
+              <a href="#" class="menu__item-link">Ещё</a>
+                <ul class="menu__item-submenu submenu">
+                  <li class="submenu__item arrow">
+                    <a href="#" class="submenu__item-link">Авто электроника</a>
+                  </li>
+                  <li class="submenu__item arrow">
+                    <a href="#" class="submenu__item-link">Аксессуары</a>
+                  </li>   
+                </ul>
+              </ul>
+            </li>
         </nav>
       </div>
     </div>

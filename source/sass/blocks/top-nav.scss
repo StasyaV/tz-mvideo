@@ -34,6 +34,10 @@
     color: $icon-color;
     font-weight: normal;
 
+    .top-nav__locations-ico {
+      display: none;
+    }
+
     &::before {
       content: "Город | ";
       font-size: inherit;
@@ -52,5 +56,68 @@
 
   a {
     color: $second-font-color;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .top-nav {
+    font-size: 14px;
+
+    &--local {
+      display: flex;
+      order: 0;
+    }
+
+    &--info {
+      text-align: left;
+      margin-left: auto;
+      display: flex;
+      align-items: center;
+    }
+
+    a {
+      &:hover,
+      &:active,
+      &:focus {
+        color: $hover-color;
+      }
+    }
+  }
+
+  .top-nav__locations-item {
+    padding: 15px 10px;
+    border: none;
+    text-align: left;
+
+    &--your {
+      &::before {
+        content: "";
+      }
+
+      .top-nav__locations-ico {
+        display: inline;
+        width: 15px;
+        height: 15px;
+      }
+    }
+  }
+
+  .top-nav__info {
+    display: flex;
+  }
+
+  .top-nav__info-item {
+    border: none;
+    background-color: transparent;
+
+    a {
+      color: $description-color;
+    }
+  }
+
+  .top-nav__phone {
+    display: initial;
+    font-weight: bold;
+    font-size: 16px;
   }
 }

@@ -11,3 +11,39 @@
     fill: $icon-color;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .user-buttons {
+    display: flex;
+    align-items: center;
+
+    svg {
+      width: 30px;
+      height: 30px;
+
+      &:last-child {
+        margin: 0;
+      }
+    }
+  }
+
+  .user-buttons__item {
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+
+    &--hidden {
+      display: initial;
+    }
+
+    a {
+      &:hover,
+      &:active,
+      &:focus {
+        svg {
+          fill: $hover-color;
+        }
+      }
+    }
+  }
+}
