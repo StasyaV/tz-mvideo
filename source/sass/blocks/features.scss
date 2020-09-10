@@ -9,7 +9,7 @@
   &--display {
     @include font-medium();
     height: 420px;
-    background-image: url("../../img/display-mobile.png");
+    background-image: url("../img/display-mobile.png");
     background-color: $blue-background;
   }
 
@@ -25,7 +25,7 @@
         width: 250px;
         height: 285px;
         background-repeat: no-repeat;
-        background-image: url("../../img/light.jpg");
+        background-image: url("../img/light.jpg");
         background-size: 250px auto;
         background-position: center bottom;
       }
@@ -42,7 +42,7 @@
       width: 250px;
       height: 250px;
       background-repeat: no-repeat;
-      background-image: url("../../img/battery-mob.png");
+      background-image: url("../img/battery-mob.png");
       background-size: 250px auto;
       background-position: center bottom;
     }
@@ -52,7 +52,7 @@
     padding-top: 140px;
     padding-bottom: 50px;
     color: $second-font-color;
-    background-image: url("../../img/main-camera-mob.png");
+    background-image: url("../img/main-camera-mob.png");
     background-size: cover;
 
     .features__item-title {
@@ -69,7 +69,7 @@
     color: $second-font-color;
     padding-top: 20px;
     padding-bottom: 50px;
-    background-image: url("../../img/compare-background-mob.png");
+    background-image: url("../img/compare-background-mob.png");
     background-size: cover;
 
     .features__item-title {
@@ -91,7 +91,7 @@
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      background-image: url("../../img/compare-camera-mob.png");
+      background-image: url("../img/compare-camera-mob.png");
     }
   }
 
@@ -107,7 +107,7 @@
         content: "";
         width: 250px;
         height: 350px;
-        background-image: url("../../img/selfie.png");
+        background-image: url("../img/selfie.png");
         background-repeat: no-repeat;
         background-size: contain;
       }
@@ -133,7 +133,7 @@
       width: 100%;
       height: 240px;
       background-size: cover;
-      background-image: url("../../img/sound-mob.png");
+      background-image: url("../img/sound-mob.png");
       background-repeat: no-repeat;
       background-position: center bottom;
     }
@@ -171,7 +171,7 @@
         content: "";
         width: 250px;
         height: 510px;
-        background-image: url("../../img/app.jpg");
+        background-image: url("../img/app.jpg");
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center bottom;
@@ -190,7 +190,7 @@
         width: 50px;
         height: 50px;
         margin-right: 20px;
-        background-image: url("../../img/huawei-app.png");
+        background-image: url("../img/huawei-app.png");
         background-repeat: no-repeat;
         background-size: contain;
       }
@@ -225,7 +225,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url("../../img/memory-mob.png");
+  background-image: url("../img/memory-mob.png");
 }
 
 @media (min-width: $tablet-width) {
@@ -237,7 +237,7 @@
     padding: 30px 0;
 
     &--display {
-      background-image: url("../../img/display.jpg");
+      background-image: url("../img/display.jpg");
       background-size: cover;
       height: 520px;
     }
@@ -263,25 +263,25 @@
       &::after {
         width: 550px;
         height: 460px;
-        background-image: url("../../img/battery-desck.png");
+        background-image: url("../img/battery-desck.png");
         background-size: contain;
       }
     }
 
     &--main-camera {
-      background-image: url("../../img/main-camera.png");
+      background-image: url("../img/main-camera.png");
       height: 536px;
       padding-top: 255px;
       padding-bottom: 40px;
     }
 
     &--main-camera-compare {
-      background-image: url("../../img/compare-background.png");
+      background-image: url("../img/compare-background.png");
 
       .features__item-compare-list {
         width: 650px;
         height: 300px;
-        background-image: url("../../img/compare-camera-desk.png");
+        background-image: url("../img/compare-camera-desk.png");
       }
     }
 
@@ -311,7 +311,7 @@
 
       &::after {
         height: 450px;
-        background-image: url("../../img/sound.png");
+        background-image: url("../img/sound.png");
       }
 
       .features__item-main-title {
@@ -340,7 +340,7 @@
     font-size: 100px;
     text-shadow: 5px 4px 5px $description-color;
     font-weight: 800;
-    background-image: url("../../img/memory.png");
+    background-image: url("../img/memory.png");
     padding: 110px 0;
   }
 }
@@ -443,7 +443,7 @@
       width: 100%;
       height: 585px;
       background-size: cover;
-      background-image: url("../../img/memory.png");
+      background-image: url("../img/memory.png");
     }
   }
 }

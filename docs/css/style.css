@@ -495,9 +495,9 @@ img {
   width: 20px;
   height: 20px;
   background-repeat: no-repeat;
-  background-image: url("../../img/icon-mobile-menu.svg"); }
+  background-image: url("../img/icon-mobile-menu.svg"); }
   .menu-button--open {
-    background-image: url("../../img/icon-close.svg");
+    background-image: url("../img/icon-close.svg");
     position: absolute;
     width: 20px;
     height: 20px;
@@ -1063,7 +1063,7 @@ a:active, a:focus {
     font-family: "Styrene A", arial, sans-serif;
     font-weight: 500;
     height: 420px;
-    background-image: url("../../img/display-mobile.png");
+    background-image: url("../img/display-mobile.png");
     background-color: #0096db; }
   .features__item--light .features__item-content {
     display: -webkit-box;
@@ -1082,7 +1082,7 @@ a:active, a:focus {
       width: 250px;
       height: 285px;
       background-repeat: no-repeat;
-      background-image: url("../../img/light.jpg");
+      background-image: url("../img/light.jpg");
       background-size: 250px auto;
       background-position: center bottom; }
   .features__item--battery {
@@ -1101,14 +1101,14 @@ a:active, a:focus {
       width: 250px;
       height: 250px;
       background-repeat: no-repeat;
-      background-image: url("../../img/battery-mob.png");
+      background-image: url("../img/battery-mob.png");
       background-size: 250px auto;
       background-position: center bottom; }
   .features__item--main-camera {
     padding-top: 140px;
     padding-bottom: 50px;
     color: #ffffff;
-    background-image: url("../../img/main-camera-mob.png");
+    background-image: url("../img/main-camera-mob.png");
     background-size: cover; }
     .features__item--main-camera .features__item-title {
       color: #ffffff;
@@ -1119,7 +1119,7 @@ a:active, a:focus {
     color: #ffffff;
     padding-top: 20px;
     padding-bottom: 50px;
-    background-image: url("../../img/compare-background-mob.png");
+    background-image: url("../img/compare-background-mob.png");
     background-size: cover; }
     .features__item--main-camera-compare .features__item-title {
       color: #ffffff;
@@ -1136,7 +1136,7 @@ a:active, a:focus {
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      background-image: url("../../img/compare-camera-mob.png"); }
+      background-image: url("../img/compare-camera-mob.png"); }
   .features__item--selfie-camera {
     background-color: #f9f9f9; }
     .features__item--selfie-camera .features__item-content {
@@ -1154,7 +1154,7 @@ a:active, a:focus {
         content: "";
         width: 250px;
         height: 350px;
-        background-image: url("../../img/selfie.png");
+        background-image: url("../img/selfie.png");
         background-repeat: no-repeat;
         background-size: contain; }
   .features__item--memory {
@@ -1180,7 +1180,7 @@ a:active, a:focus {
       width: 100%;
       height: 240px;
       background-size: cover;
-      background-image: url("../../img/sound-mob.png");
+      background-image: url("../img/sound-mob.png");
       background-repeat: no-repeat;
       background-position: center bottom; }
     .features__item--sound .features__item-main-title {
@@ -1212,7 +1212,7 @@ a:active, a:focus {
         content: "";
         width: 250px;
         height: 510px;
-        background-image: url("../../img/app.jpg");
+        background-image: url("../img/app.jpg");
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center bottom; }
@@ -1234,7 +1234,7 @@ a:active, a:focus {
         width: 50px;
         height: 50px;
         margin-right: 20px;
-        background-image: url("../../img/huawei-app.png");
+        background-image: url("../img/huawei-app.png");
         background-repeat: no-repeat;
         background-size: contain; }
   .features__item--notice {
@@ -1261,7 +1261,7 @@ a:active, a:focus {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url("../../img/memory-mob.png"); }
+  background-image: url("../img/memory-mob.png"); }
 
 @media (min-width: 768px) {
   .features__item-title {
@@ -1269,7 +1269,7 @@ a:active, a:focus {
   .features__item {
     padding: 30px 0; }
     .features__item--display {
-      background-image: url("../../img/display.jpg");
+      background-image: url("../img/display.jpg");
       background-size: cover;
       height: 520px; }
     .features__item--light .features__item-content {
@@ -1289,19 +1289,19 @@ a:active, a:focus {
     .features__item--battery::after {
       width: 550px;
       height: 460px;
-      background-image: url("../../img/battery-desck.png");
+      background-image: url("../img/battery-desck.png");
       background-size: contain; }
     .features__item--main-camera {
-      background-image: url("../../img/main-camera.png");
+      background-image: url("../img/main-camera.png");
       height: 536px;
       padding-top: 255px;
       padding-bottom: 40px; }
     .features__item--main-camera-compare {
-      background-image: url("../../img/compare-background.png"); }
+      background-image: url("../img/compare-background.png"); }
       .features__item--main-camera-compare .features__item-compare-list {
         width: 650px;
         height: 300px;
-        background-image: url("../../img/compare-camera-desk.png"); }
+        background-image: url("../img/compare-camera-desk.png"); }
     .features__item--selfie-camera .features__item-content {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
@@ -1322,7 +1322,7 @@ a:active, a:focus {
       padding-bottom: 0; }
       .features__item--sound::after {
         height: 450px;
-        background-image: url("../../img/sound.png"); }
+        background-image: url("../img/sound.png"); }
       .features__item--sound .features__item-main-title {
         font-size: 28px; }
     .features__item--gallery .features__item-content {
@@ -1342,7 +1342,7 @@ a:active, a:focus {
     font-size: 100px;
     text-shadow: 5px 4px 5px #333333;
     font-weight: 800;
-    background-image: url("../../img/memory.png");
+    background-image: url("../img/memory.png");
     padding: 110px 0; } }
 
 @media (min-width: 1200px) {
@@ -1399,7 +1399,7 @@ a:active, a:focus {
       width: 100%;
       height: 585px;
       background-size: cover;
-      background-image: url("../../img/memory.png"); } }
+      background-image: url("../img/memory.png"); } }
 
 .battery .features__item-description {
   margin-bottom: 50px; }
@@ -1456,13 +1456,13 @@ a:active, a:focus {
     background-size: contain; }
   .battery__features-item--4g::before {
     width: 30%;
-    background-image: url("../../img/4g.png"); }
+    background-image: url("../img/4g.png"); }
   .battery__features-item--calls::before {
-    background-image: url("../../img/calls.png"); }
+    background-image: url("../img/calls.png"); }
   .battery__features-item--video::before {
-    background-image: url("../../img/video.png"); }
+    background-image: url("../img/video.png"); }
   .battery__features-item--fm::before {
-    background-image: url("../../img/FM.png"); }
+    background-image: url("../img/FM.png"); }
 
 @media (min-width: 768px) {
   .battery .features__item-description {

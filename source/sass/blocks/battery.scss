@@ -51,25 +51,25 @@
   &--4g {
     &::before {
       width: 30%;
-      background-image: url("../../img/4g.png");
+      background-image: url("../img/4g.png");
     }
   }
 
   &--calls {
     &::before {
-      background-image: url("../../img/calls.png");
+      background-image: url("../img/calls.png");
     }
   }
 
   &--video {
     &::before {
-      background-image: url("../../img/video.png");
+      background-image: url("../img/video.png");
     }
   }
 
   &--fm {
     &::before {
-      background-image: url("../../img/FM.png");
+      background-image: url("../img/FM.png");
     }
   }
 }
