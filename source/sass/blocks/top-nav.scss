@@ -88,6 +88,16 @@
     padding: 15px 10px;
     border: none;
     text-align: left;
+    display: flex;
+    align-items: center;
+
+    &:hover,
+    &:active,
+    &:focus {
+      svg {
+        fill: $hover-color;
+      }
+    }
 
     &--your {
       &::before {
@@ -95,9 +105,9 @@
       }
 
       .top-nav__locations-ico {
-        display: inline;
-        width: 15px;
-        height: 15px;
+        display: inline-block;
+        width: 20px;
+        height: 17px;
       }
     }
   }
