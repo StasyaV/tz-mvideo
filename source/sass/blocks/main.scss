@@ -70,3 +70,38 @@ img {
     display: block;
   }
 }
+
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .menu__item-link {
+    max-width: 85px;
+    font-size: 12px;
+  }
+
+  .user-nav__account-item {
+    a {
+      font-size: 14px;
+    }
+  }
+
+  input:-ms-input-placeholder {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .actions__search-input {
+    font-size: 10px;
+    padding: 10px;
+    border: none;
+  }
+
+  .logo__img {
+    width: 100%;
+  }
+
+  .header__menu-container {
+    margin: 0 auto;
+    padding: 0 40px;
+    max-width: 1120px;
+  }
+}
