@@ -488,7 +488,13 @@ img {
   .header__menu-container {
     margin: 0 auto;
     padding: 0 40px;
-    max-width: 1120px; } }
+    max-width: 1120px; }
+  .actions__search svg {
+    top: 5px; }
+  .user-buttons__item--cart {
+    margin-right: 15px; }
+  .user-buttons__item--hidden {
+    display: inline-block !important; } }
 
 .header {
   -webkit-box-shadow: -4px 1px 10px #9c9c9c;

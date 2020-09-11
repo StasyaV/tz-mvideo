@@ -104,4 +104,19 @@ img {
     padding: 0 40px;
     max-width: 1120px;
   }
+
+  .actions__search {
+    svg {
+      top: 5px;
+    }
+  }
+  
+  .user-buttons__item {
+    &--cart {
+      margin-right: 15px;
+    }
+    &--hidden {
+      display: inline-block!important;
+    }
+  }
 }
